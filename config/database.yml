@@ -84,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: blog_app_production
-  username: blog_app
-  password: <%= ENV["BLOG_APP_DATABASE_PASSWORD"] %>
+  database: onelab
+  username: danicex
+  password: <%= ENV["SERVER_DATABASE_PASSWORD"] %>
